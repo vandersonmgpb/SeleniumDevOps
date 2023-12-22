@@ -16,7 +16,7 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
-          cache: maveng
+          cache: maven
 
       - name: Instalar Chrome
         run: |
